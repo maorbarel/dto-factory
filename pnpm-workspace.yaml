@@ -1,0 +1,6 @@
+# Standalone repo: keeps pnpm from attaching this package to a parent workspace.
+packages:
+  - "."
+
+onlyBuiltDependencies:
+  - esbuild
